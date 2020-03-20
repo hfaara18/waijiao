@@ -1,5 +1,5 @@
 ---
-title: 'Business Advisory'
+title: 'Essay Proofreading'
 image: '/services/default.png'
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Business Sales'
+title: 'English Translation'
 image: '/services/default.png'
 ---
 

@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Waijiao Proofreaders'
 
 collections:
   services:
@@ -32,3 +32,5 @@ google_analytics_id: null
 
 plugins:
   - jekyll-environment-variables
+
+exclude: [vendor]
