@@ -29,17 +29,21 @@ bodyClass: page-home
 
 <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
-    <div class="col-12">
+    <div class="col-12 text-center">
+      <br>
       <h2 class="title-3 text-dark mb-3">Our Services</h2>
+      <h5>We pride ourselves as being experts in professional editing and proofreading of documents. With more than 5
+        years of experience in this business, we are well equipped to assist you with your:
+      </h5>
     </div>
     {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
+    <div class="col-12 col-md-12 mb-1">
       <div class="service service-summary">
         <div class="service-content">
-          <h2 class="service-title">
+          <h2 class="service-title text-center">
             <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
           </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
+          <!-- {{ service.content | markdownify | strip_html | truncate: 100 }} -->
         </div>
       </div>
     </div>
